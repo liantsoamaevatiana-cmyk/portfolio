@@ -1,8 +1,8 @@
-alert("Mandeha ny JavaScript!");
+
 let bouton = document.getElementById("contact");
 
 bouton.onclick = function(){
-    alert("Pour toute collaboration, contactez-moi !");
+    alert("Pour toute collaboration, contactez-moi via mail ou téléphone tous indiqués en bas !");
 };
 const elements = document.querySelectorAll(".hidden");
 
@@ -23,6 +23,6 @@ let boutonDark = document.getElementById("dark");
 
 boutonDark.onclick = function(){
 
-    document.body.classList.toggle("dark-mode");
+    document.body.classList.toggle("light-mode");
 
 };

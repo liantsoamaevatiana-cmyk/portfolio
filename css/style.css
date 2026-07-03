@@ -235,7 +235,7 @@ h2, .titre-section {
 
 
 .dark-mode .navbar{
-    background:#222 !important;
+    background:#222 ;
 }
 .contentCompetences container {
     background-color: #1e1e1e;
@@ -246,52 +246,52 @@ h1 {
      font-weight: 700;
      }
      .btn-custom-contact {
-    padding: 12px 30px !important;
-    font-size: 18px !important;
+    padding: 12px 30px ;
+    font-size: 18px ;
     font-weight: bold;
-    border-radius: 8px !important;
+    border-radius: 8px ;
      transition: all 0.3s ease-in-out;
      }
      .footer a {
-    color: #c92d2d !important;
+    color: #c92d2d ;
      text-decoration: none;
      }
      .footer a:hover {
     color: #ff0707;
     }
     section {
-    padding-top: 70px !important;
-    padding-bottom: 80px !important;
+    padding-top: 70px ;
+    padding-bottom: 80px ;
 }
 .custom-card {
-    border: 1px solid #e0e0e0 !important;
-    border-radius: 12px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
-     transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-     background-color: #ffffff !important;
+    border: 1px solid #e0e0e0 ;
+    border-radius: 12px ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) ;
+     transition: transform 0.3s ease, box-shadow 0.3s ease ;
+     background-color: #ffffff ;
       padding: 15px;
 }
 .custom-card:hover {
-    transform: translateY(-8px) !important;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
-     border-bottom: 4px solid #E60023 !important;
+    transform: translateY(-8px) ;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) ;
+     border-bottom: 4px solid #E60023 ;
      }
      .Competence {
-    margin-top: 60px !important;
-    margin-bottom: 60px !important;
+    margin-top: 60px ;
+    margin-bottom: 60px ;
 }
 .profile-img {
-    width: 250px !important;
-    height: 250px !important;      
+    width: 250px ;
+    height: 250px ;      
     object-fit: cover;             
-    border-radius: 50% !important; 
+    border-radius: 50% ; 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
     border: 4px solid #ffffff;     
     margin: 0 auto;                
 }
 .main-title {
-    font-size: 4rem !important;
-    font-weight: 1000 !important;
+    font-size: 4rem ;
+    font-weight: 1000 ;
     color: #dc2424;
     letter-spacing: -1px;
     }
@@ -299,161 +299,277 @@ h1 {
         font-size: large;
     }
     .hero h4 {
-    font-size: 2.8rem !important;
+    font-size: 2.8rem ;
     font-weight: 900;
 }
 .size {
     font-size: x-large;
 }
 Competence img, .card-body img, .card-icon img {
-     width: 60px !important;
-     height: auto !important;
-     margin-bottom: 12px !important;
-     display: block !important;
+     width: 60px ;
+     height: auto ;
+     margin-bottom: 12px ;
+     display: block ;
      }
      .Competence .col, .Competence li, .card {
-    border: 2px solid #E60023 !important;
-    border-radius: 12px !important;
-    padding: 20px !important;
-    background-color: #ffffff !important;
+    border: 2px solid #E60023 ;
+    border-radius: 12px ;
+    padding: 20px ;
+    background-color: #ffffff ;
     }
     h2 {
         color: #bd2130;
     }
     .main-title {
-    color: #000000 !important;
+    color: #000000 ;
 }
 footer a, .footer a {
-    color: #ffffff !important;
+    color: #ffffff ;
     font-weight: bold;
     text-decoration: none;
 }
 footer a:hover, .footer a:hover {
-    color: #ff0707 !important;
+    color: #ff0707 ;
  }   
  section, .Competence, .apropos {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
+    padding-top: 60px ;
+    padding-bottom: 60px ;
 }
 .Competence {
-    background-color: #ab3737 !important;
-     padding: 80px 0 !important;
+    background-color: #ab3737 ;
+     padding: 80px 0 ;
      }
      body {
-    background-color: #030106 !important;
-    color: #ffffff !important;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #030106 ;
+    color: #ffffff ;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 h1, h2, h3, h5, p, .lead, .card-title, .card-text {
-    color: #0a0808 !important;
+    color: #0a0808 ;
     }
     .Competence .col, .Competence li, .card {
-    background-color: #3b147d !important;
-    border: 2px solid #7c3aed !important;
-     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+    background-color: #3b147d ;
+    border: 2px solid #7c3aed ;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) ;
      }
      .Competence .col:hover, .Competence li:hover, .card:hover {
-    border-color: #a78bfa !important;
-     box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4) !important;
+    border-color: #a78bfa ;
+     box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4) ;
      transform: translateY(-5px);
 }
 .text-muted, .card-text.text-muted {
-    color: #cbd5e1 !important;
+    color: #cbd5e1 ;
     }
     body {
-    background-color: #F5F5DC !important;
-    color: #2F3E36 !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #F5F5DC ;
+    color: #2F3E36 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
 h1, h2, h3, h5, .main-title {
-    color: #2F3E36 !important;
+    color: #2F3E36 ;
 }p, .lead, .card-text {
-    color: #4A574E !important;
+    color: #4A574E ;
 }
 .btn-custom-contact:hover, .btn-danger:hover {
-    background-color: #354F52 !important;
-    border-color: #354F52 !important;
+    background-color: #354F52 ;
+    border-color: #354F52 ;
     transform: translateY(-3px);
-    box-shadow: 0 4px 15px rgba(82, 121, 111, 0.3) !important;
+    box-shadow: 0 4px 15px rgba(82, 121, 111, 0.3) ;
 }
 .Competence .col, .Competence li, .card {
-    background-color: #faf9f6 !important;
-    border: 2px solid #CAD2C5 !important;
-    border-radius: 12px !important;
-    box-shadow: 0 4px 12px rgba(47, 62, 54, 0.05) !important; /* Ombre très légère */
+    background-color: #faf9f6 ;
+    border: 2px solid #CAD2C5 ;
+    border-radius: 12px ;
+    box-shadow: 0 4px 12px rgba(47, 62, 54, 0.05) ; /* Ombre très légère */
 }
 .Competence .col:hover, .Competence li:hover, .card:hover {
-    border-color: #52796F !important;
-    box-shadow: 0 8px 20px rgba(47, 62, 54, 0.1) !important;
+    border-color: #52796F ;
+    box-shadow: 0 8px 20px rgba(47, 62, 54, 0.1) ;
     transform: translateY(-5px);
 }
 footer, .footer {
-    background-color: #212F28 !important;
+    background-color: #212F28 ;
     }
     footer a, .footer a {
-    color: #CAD2C5 !important;
+    color: #CAD2C5 ;
      }
      footer a:hover, .footer a:hover {
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
     }
     .Competence, #competences, section.bg-danger, div.bg-danger {
-         background-color: #52796F !important;
+         background-color: #52796F ;
           }
           .hero h4, h2.text-danger {
-    color: #2F3E36 !important;
+    color: #2F3E36 ;
 }
 .Competence .col, .Competence li, .card {
-    min-height: 280px !important;
+    min-height: 280px ;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px !important;
+    padding: 30px ;
     }
     .apropos h2, #apropos h2 {
-    text-align: center !important;
+    text-align: center ;
 }
 [class*="apropos"] h1, 
 [class*="apropos"] h2, 
 [class*="apropos"] h3, 
 #apropos h2 {
-    display: block !important;
-    text-align: center !important;
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    display: block ;
+    text-align: center ;
+    width: 100% ;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 .Competence h5, .card-title {
-    font-size: 2.35rem !important;
-    margin-bottom: 15px !important;
+    font-size: 2.35rem ;
+    margin-bottom: 15px ;
 }
 .Competence p, .card-text {
-    font-size: 1.1rem !important;
+    font-size: 1.1rem ;
     }
 body {
-    background-color: #0b0b0c !important;
-    color: #ffffff !important;
-    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+    background-color: #0b0b0c ;
+    color: #ffffff ;
+    font-family: 'Helvetica Neue', Arial, sans-serif ;
 }
 h1, h2, h3, h5, p, .lead, .main-title, .card-title, .card-text {
-    color: #ffffff !important;
+    color: #ffffff ;
 }
 .hero h4, .text-danger, h2.text-danger {
-    color: #E60023 !important;
-    font-weight: bold !important;
+    color: #E60023 ;
+    font-weight: bold ;
 }
 .btn-custom-contact, .btn-danger {
-    background-color: transparent !important;
-    border: 2px solid #ffffff !important;
-    color: #ffffff !important;
-    font-weight: bold !important;
+    background-color: transparent ;
+    border: 2px solid #ffffff ;
+    color: #ffffff ;
+    font-weight: bold ;
     text-transform: uppercase;
-    padding: 12px 30px !important;
-    border-radius: 4px !important;
+    padding: 12px 30px ;
+    border-radius: 4px ;
     transition: all 0.3s ease-in-out;
 }
 .btn-custom-contact:hover, .btn-danger:hover {
-    background-color: #E60023 !important;
-    border-color: #E60023 !important;
-    color: #ffffff !important;
-    
+    background-color: #E60023 ;
+    border-color: #E60023 ;
+    color: #ffffff ;
+    }
+    .votre-carte {
+    background-color: #1e3d33;
+     color: #ffffff;
+      }
+      .votre-titre-rouge {
+        color: #00d2ff;
+        }
+        .custom-card {
+    background-color: #1a1a1a ;
+    color: #ffffff ;
+    border: 2px solid #ff3333 ;
+     border-radius: 8px;
+     }
+     .custom-card .card-title {
+    color: #ffffff ;
+    }
+    .Competence {
+        background-color: #121212 ;
+     }
+     footer, .custom-footer {
+    background-color: #121212 ;
+    color: #ffffff ;
+    }
+    footer a {
+    color: #ff4d4d ;
+    }
+
+    body.light-mode{
+        background-color: #f5f5f5;
+    }
+
+    .light-mode p{
+        color: #000000;
+    }
+
+    .light-mode .Competence {
+        background-color: #ffffff;
+    }
+
+     .light-mode h1{
+        color: #000000;
+    }
+    .mt-4 {
+        color: #9a2929;
+         background-color:transparent;
+    }
+    .btn btn-danger btn-custom-contact {
+        color: #000000;
+    }
+ .size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.size {
+    text-align: center;
+}
+.custom-logo {
+    width: 80px;
+     height: auto;
+    margin-bottom: 45px;
+    }
+.custom-logo {
+    width: 200px ;
+    height: 200px;
+    object-fit: contain;
+     margin-bottom: 20px;
+    }
+    body {
+    font-family: 'Poppins', sans-serif;
+}
+.custom-logo {
+    width: 140px;
+    height: 140px;
+     object-fit: contain;
+     }
+     .hero h1, .intro h1, h1 {
+         font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 400;
+         letter-spacing: -1px;
+         color:#bd2130
+         }
+     .profile-effets {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #ff4d4d;
+        box-shadow: 0 0 20px rgba(255, 77, 77, 0.4);
+        transition: all 0.4s ease-in-out;
+        }    
+        .profile-effets:hover {
+    transform: scale(1.08) rotate(3deg);
+    border-color: #ffffff;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+      cursor: pointer;
+}
+.custom-footer {
+    background-color: #121212;
+    border-top: 2px solid #ff4d4d;
+    }
+    .footer-icon i {
+    font-size: 2rem;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.footer-icon:hover i {
+    color: #ff4d4d;
+    transform: translateY(-5px);
+    }
+     .custom-card {
+    padding: 30px !important;
+    }
+

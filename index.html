@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maeva porfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="./css/style.css" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yuyu&display=swap" rel="stylesheet">
@@ -46,7 +49,7 @@
                     </li>
                 </ul>
                 <button id="dark" class="btn btn-dark ms-3">
-🌙 Mode sombre
+🌙 Mode
 </button>
                 
                 </div>
@@ -59,30 +62,27 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
 <!-- Ny lohateny -->
-        <h1 class="fw-bold yuyu-regular main-title mb-3">
-                    Bonjour, je suis Maeva
-                </h1>
+        <h1 class="text-danger fw-bold text-center mb-5">LIANTSOA Maevatiana Rebekà</h1>
         <!-- Ny sarinao lasa lehibe sy eo afovoany (Avadika ny anaran'ny sary raha tsy io) -->
-        <div class="mb-4">
-          <img src="images/1000020481.jpg" alt="Maeva" class="rounded-circle shadow"  width="180" height="180" style="object-fit: cover; border: 3px solid white;">>
-        </div>
+        <div class="text-center mb-5">
+    <img src="images/1000020481.jpg" alt="Maeva" class="img-fluid profile-effets mx-auto d-block">
+</div>
 
 
 
         <!-- Ny asa sahanina -->
-        <h4 class="text-danger mb-3">
-                    Data Analyst | Email Marketing | Professeur
-                </h4>
+        <h2 class="text-danger fw-bold text-center mb-4">Data Analyst | Email Marketing | Professeur</h2>
 
         <!-- Ny fampidirana fohy -->
-        <p class="lead text-muted mx-auto mb-4 fw-bold" style="max-width: 650px;">
-          Experte en traitement des données, emailing freelance et enseignement du français et de l'anglais.
-                </p>
+      <!-- Retirez text-white et ajoutez une classe personnalisée comme "hero-description" -->
+<p class="lead hero-description mx-auto mb-4 fw-bold" style="max-width: 650px;">
+    Experte en traitement des données, emailing freelance et enseignement du français et de l'anglais.
+</p>
+
 
         <!-- Ilay bokotra namboarintsika teo -->
         <div class="mt-4">
-          <a id="contact" href="#contact" class="btn btn-danger btn-custom-contact">
-    Me contacter
+          <a id="contact" href="#contact" class="btn btn-outline-dark fw-bold">ME CONTACTER
 </a>
             </div>
 
@@ -95,8 +95,11 @@
             <div class="container">
                 <div class="row">
                     <div class="titreSection py-5 col-md-6">
-                        <h2 class="display-6 fw-bold mb-4">A propos de moi</h2>
-                        <p class="size"><strong>« Experte en traitement des données et pédagogue dans l'âme, je conjugue rigueur analytique et maîtrise des langues (français/anglais) pour concevoir vos stratégies de communication et optimiser votre relation client. »</strong></p>
+                        <!-- Ampio ireto classe ireto eo amin'ny h2 -->
+<h2 class="display-6 fw-bold mb-4 text-center text-danger">A propos de moi</h2>
+<p class="lead text-center mx-auto about-desc" style="max-width: 800px;">
+    « Experte en traitement des données et pédagogue dans l'âme, je conjugue rigueur analytique et maîtrise des langues (français/anglais) pour concevoir vos stratégies de communication et optimiser votre relation client. »
+</p>
                     </div>
                     <div class="leftBox col-md-6">
                     
@@ -114,9 +117,12 @@
         <div class="col-md-4">
           <div class="card h-100 custom-card">
             <div class="card-body">
-              <div class="card-icon">📊</div>
+              <div class="card-icon text-center py-2 mb-4">
+    <img src="images/data-processing.png" alt="Logo Data" class="img-fluid custom-logo mx-auto d-block">
+</div>
               <h5 class="card-title fw-bold"><strong>Experte en traitement des données</strong> </h5>
-              <p class="lead fs-4" class="card-text text-muted">
+              <p class="lead fs-4 text-white">
+
                 Nettoyage et structuration : Dépouillement, Saisie, Formatage...
               </p>
             </div>
@@ -125,22 +131,29 @@
          <div class="col-md-4">
           <div class="card h-100 custom-card">
             <div class="card-body">
-              <div class="card-icon">✉️</div>
-              <h5 class="card-title fw-bold">2. Agent emailing en freelance</h5>
-              <p class="lead fs-4" class="card-text text-muted">
-                Prospection et campagnes : Création, envoi et suivi...
-              </p>
+              <div class="card-icon text-center py-2 mb-4">
+    <img src="images/email-blast.png" alt="Logo Data" class="img-fluid custom-logo mx-auto d-block">
+</div>
+              <h5 class="card-title fw-bold mb-4">Agent emailing en freelance</h5>
+              <!-- Atambatra ho class iray ary soloina text-white ilay text-muted -->
+                <p class="card-text lead fs-4 text-white">
+                   Prospection et campagnes : Création, envoi et suivi...
+                 </p>
             </div>
           </div>
         </div>
          <div class="col-md-4">
           <div class="card h-100 custom-card">
-            <div class="card-body">
-              <div class="card-icon">🗣️</div>
-              <h5 class="card-title fw-bold">3. Professeur de français et d'anglais</h5>
-              <p class="lead fs-4" class="card-text text-muted">
-                Enseignement sur mesure : Cours de langues adaptés...
-                </p>
+            <div class="card-body text-center">
+              <div class="card-icon text-center py-2">
+    <img src="images/teacher.png" alt="Logo Data" class="img-fluid custom-logo mx-auto d-block">
+</div>
+              <h5 class="card-title fw-bold">Professeur de français et d'anglais</h5>
+              <!-- Atambatra ho class iray ary soloina text-white ilay text-muted -->
+<p class="card-text lead fs-4 text-white">
+    Enseignement sur mesure : Cours de langues adaptés...
+</p>
+
             </div>
           </div>
         </div>
@@ -151,28 +164,27 @@
         </section>
 
     </main>
-    <footer class="footer mt-5">
-    <div class="container text-center">
-
-        <h4>Contact</h4>
-
-        <p>📧 Email : liantsoamaevatiana@gmail.com</p>
-
-        <p>📞 Téléphone : +261 38 41 064 74</p>
-
-        <p>
-            <a href="#">LinkedIn</a> |
-            <a href="#">GitHub</a>
-        </p>
-
-        <hr>
-
-        <p class="mb-0">
-            © Maevatiana 2026. Tous droits réservés.
-        </p>
-
+    <footer class="custom-footer text-center py-5">
+    <div class="container">
+        <!-- 1. Les icônes des réseaux sociaux -->
+        <div class="mb-4">
+            <a href="VOTRE_LIEN_LINKEDIN" target="_blank" class="footer-icon mx-3" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="VOTRE_LIEN_GITHUB" target="_blank" class="footer-icon mx-3" title="GitHub">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:VOTRE_EMAIL@gmail.com" class="footer-icon mx-3" title="Email">
+                <i class="bi bi-envelope-fill"></i>
+            </a>
+        </div>
+        
+        <!-- 2. Les informations textuelles -->
+        <p class="mb-2 text-white-50">Maeva - Data Analyst & Emailing Freelance</p>
+        <p class="small text-muted mb-0">&copy; 2026 Tous droits réservés.</p>
     </div>
 </footer>
+
 <script src="js/script.js"></script>
 </body>
 
