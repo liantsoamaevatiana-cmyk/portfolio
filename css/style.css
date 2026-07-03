@@ -1,3 +1,5 @@
+
+@import url('https://googleapis.com');
 .yuyu-regular {
   font-family: "Yuyu", sans-serif;
   font-weight: 400;
@@ -238,3 +240,220 @@ h2, .titre-section {
 .contentCompetences container {
     background-color: #1e1e1e;
 }
+h1 {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #111827;
+     font-weight: 700;
+     }
+     .btn-custom-contact {
+    padding: 12px 30px !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    border-radius: 8px !important;
+     transition: all 0.3s ease-in-out;
+     }
+     .footer a {
+    color: #c92d2d !important;
+     text-decoration: none;
+     }
+     .footer a:hover {
+    color: #ff0707;
+    }
+    section {
+    padding-top: 70px !important;
+    padding-bottom: 80px !important;
+}
+.custom-card {
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+     transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+     background-color: #ffffff !important;
+      padding: 15px;
+}
+.custom-card:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+     border-bottom: 4px solid #E60023 !important;
+     }
+     .Competence {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+.profile-img {
+    width: 250px !important;
+    height: 250px !important;      
+    object-fit: cover;             
+    border-radius: 50% !important; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); 
+    border: 4px solid #ffffff;     
+    margin: 0 auto;                
+}
+.main-title {
+    font-size: 4rem !important;
+    font-weight: 1000 !important;
+    color: #dc2424;
+    letter-spacing: -1px;
+    }
+    h4 {
+        font-size: large;
+    }
+    .hero h4 {
+    font-size: 2.8rem !important;
+    font-weight: 900;
+}
+.size {
+    font-size: x-large;
+}
+Competence img, .card-body img, .card-icon img {
+     width: 60px !important;
+     height: auto !important;
+     margin-bottom: 12px !important;
+     display: block !important;
+     }
+     .Competence .col, .Competence li, .card {
+    border: 2px solid #E60023 !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    background-color: #ffffff !important;
+    }
+    h2 {
+        color: #bd2130;
+    }
+    .main-title {
+    color: #000000 !important;
+}
+footer a, .footer a {
+    color: #ffffff !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover, .footer a:hover {
+    color: #ff0707 !important;
+ }   
+ section, .Competence, .apropos {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+.Competence {
+    background-color: #ab3737 !important;
+     padding: 80px 0 !important;
+     }
+     body {
+    background-color: #030106 !important;
+    color: #ffffff !important;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+h1, h2, h3, h5, p, .lead, .card-title, .card-text {
+    color: #0a0808 !important;
+    }
+    .Competence .col, .Competence li, .card {
+    background-color: #3b147d !important;
+    border: 2px solid #7c3aed !important;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+     }
+     .Competence .col:hover, .Competence li:hover, .card:hover {
+    border-color: #a78bfa !important;
+     box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4) !important;
+     transform: translateY(-5px);
+}
+.text-muted, .card-text.text-muted {
+    color: #cbd5e1 !important;
+    }
+    body {
+    background-color: #F5F5DC !important;
+    color: #2F3E36 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+h1, h2, h3, h5, .main-title {
+    color: #2F3E36 !important;
+}p, .lead, .card-text {
+    color: #4A574E !important;
+}
+.btn-custom-contact:hover, .btn-danger:hover {
+    background-color: #354F52 !important;
+    border-color: #354F52 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(82, 121, 111, 0.3) !important;
+}
+.Competence .col, .Competence li, .card {
+    background-color: #faf9f6 !important;
+    border: 2px solid #CAD2C5 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(47, 62, 54, 0.05) !important; /* Ombre très légère */
+}
+.Competence .col:hover, .Competence li:hover, .card:hover {
+    border-color: #52796F !important;
+    box-shadow: 0 8px 20px rgba(47, 62, 54, 0.1) !important;
+    transform: translateY(-5px);
+}
+footer, .footer {
+    background-color: #212F28 !important;
+    }
+    footer a, .footer a {
+    color: #CAD2C5 !important;
+     }
+     footer a:hover, .footer a:hover {
+    color: #FFFFFF !important;
+    }
+    .Competence, #competences, section.bg-danger, div.bg-danger {
+         background-color: #52796F !important;
+          }
+          .hero h4, h2.text-danger {
+    color: #2F3E36 !important;
+}
+.Competence .col, .Competence li, .card {
+    min-height: 280px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px !important;
+    }
+    .apropos h2, #apropos h2 {
+    text-align: center !important;
+}
+[class*="apropos"] h1, 
+[class*="apropos"] h2, 
+[class*="apropos"] h3, 
+#apropos h2 {
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.Competence h5, .card-title {
+    font-size: 2.35rem !important;
+    margin-bottom: 15px !important;
+}
+.Competence p, .card-text {
+    font-size: 1.1rem !important;
+    }
+body {
+    background-color: #0b0b0c !important;
+    color: #ffffff !important;
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+}
+h1, h2, h3, h5, p, .lead, .main-title, .card-title, .card-text {
+    color: #ffffff !important;
+}
+.hero h4, .text-danger, h2.text-danger {
+    color: #E60023 !important;
+    font-weight: bold !important;
+}
+.btn-custom-contact, .btn-danger {
+    background-color: transparent !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    padding: 12px 30px !important;
+    border-radius: 4px !important;
+    transition: all 0.3s ease-in-out;
+}
+.btn-custom-contact:hover, .btn-danger:hover {
+    background-color: #E60023 !important;
+    border-color: #E60023 !important;
+    color: #ffffff !important;
+    
