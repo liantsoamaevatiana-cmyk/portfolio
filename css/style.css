@@ -572,4 +572,41 @@ h1, h2, h3, h5, p, .lead, .main-title, .card-title, .card-text {
      .custom-card {
     padding: 30px !important;
     }
-
+    .aside-profile {
+  position: absolute;
+  top: 100px;
+  left: 5%;
+  max-width: 320px;
+  color: #cc2828;
+  font-family: sans-serif;
+}
+.aside-profile h3 {
+  color: #ff4a57;
+  font-size: 100px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+.aside-profile p {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 1.8;
+}
+.aside-profile ul {
+  list-style: none;
+  padding: 20;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.aside-profile {
+  position: absolute; 
+  top: 100px;
+  left: 5%;
+  max-width: 450px;
+  color: #d74343;
+  font-family: sans-serif;
+}
+.aside-profile p {
+  font-size: 30px;
+   line-height: 1.6;
+   font-weight: 500;
+   }
